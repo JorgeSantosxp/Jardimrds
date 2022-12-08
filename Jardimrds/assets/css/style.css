@@ -1,0 +1,1287 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Reenie+Beanie&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Reenie+Beanie&family=Roboto:wght@300;500&display=swap');
+
+/***  GENERIC STYLES ***/
+
+/*** whatsapp-link ***/
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+/*** whatsapp-link ***/
+.instagram-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 130px;
+  right: 40px;
+  /*background-color: #d3b325;*/
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-instagram {
+  margin-top: 16px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #687450;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DCA75F;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9ca883;
+  height:100%;
+  width:100%;
+  margin: 0 auto;
+  min-height: 320px;
+  max-width: 1440px;
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { color: #212529;
+}
+
+p {
+  color: #212529;
+  font-weight: 200;
+}
+
+input,
+textarea {
+  border: 3px solid #687450;
+  background-color: #adb994;
+  color: #ffffff;
+  padding: 8px;
+  width: 400px;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: #F1E0C3;
+}
+
+/*** HEADER STYLES MENU ***/
+
+.menu {
+  height: 80px;
+  background-color: #687450;
+  font-family: Roboto;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 1440px;
+  z-index: 5;
+  padding: 0;
+  justify-items: left;
+}
+
+.imglogo {
+  padding: 10px 0px;
+  width: 19%;
+  background-color: #687450;
+  align-items: center;
+}
+
+.ul-menu {
+  margin-left: 15%;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  align-items: center;
+  height: 80px;
+  width: 150px;
+  *padding: 0px 30px;
+  line-height: 40px;
+  padding: 0;
+  position: relative;
+}
+
+.menu ul li a {
+  text-align: center;
+  font-size: 1.5em;
+  align-items: center;
+}
+
+.menu a {
+  padding: 12.5px;
+  display: block;
+  text-decoration: none;
+  color: #fffefe;
+  align-items: center;
+}
+
+.menu ul a:hover {
+  height: 55px;
+  transition: all 0.4s ease;
+  background-color: #DCA75F;
+  color: #161616;
+  border-radius: 5px;
+}
+
+/*** SECTIONS STYLES ***/
+
+section {
+  display: flex;
+}
+
+/*** BUTTON STYLES ***/
+
+.section-banner1 {
+  position: relative;
+  display: flex;
+}
+.section-banner1 .button-rede a{
+  color: #161616;
+}
+
+.section-banner1 .button-rede a :hover{
+  color: #cecccc;
+}
+
+.img-container {
+  width: 1440px;
+  padding: 0;
+}
+
+.imgBanner1 {
+  width: 1440px;
+  height: 100%;
+  max-width: 1440px;
+}
+
+
+.botaoEnviar {
+  width: 119px;
+  height: 44.71px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50px;      
+  font-size: 15px;
+  /* margin-left: 156px;*/
+  margin: auto;
+  margin-top: 21px;
+}
+
+/*** CONHECA MAIS ***/
+
+.conheca_mais {
+  margin: 0;
+  text-align: center;
+  justify-items: center;
+  background-color: #DCA75F;
+}
+
+.con-mais {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 90px;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+.con-mais h2 {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+.rosa {
+  width: 8%;
+  padding-right: 50px;
+}
+
+/*** SECTIONS SOBRE NOS ***/
+
+.sobre_nos {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#section-sobrenos {
+  padding: 10px, 20px;
+}
+
+#section-sobrenos .section-texts {
+  width: 50%;
+}
+
+#section-sobrenos .section-texts h1 {
+  margin-top: -10px;
+  max-width: 400px;
+  font-size: 4.0em;
+  padding-bottom: 80px;
+  text-transform: uppercase;
+}
+
+#section-sobrenos .section-texts p {
+  margin-top: 20px;
+  align-items: center;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.imgsobrenos {
+  margin: 70px;
+  width: 25%;
+  border: 2px solid #F1E0C3;
+  box-shadow: 0px 15px 6px rgba(134, 128, 106, 0.25);
+}
+
+/* Section 03 - Algumas das nossas rosas */
+
+#section-algumas-gallery {
+  height:100%;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+#section-algumas-gallery .container-section-text {
+  width: 100%;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+#section-algumas-gallery .container-section-text h2 {
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  background-color: #687450;
+  padding-top: 20px;
+  justify-items: center;
+}
+
+#section-algumas-gallery .gallery-container {
+  display: flex;
+  width: 98%;
+  max-width: 1440px;
+  gap: 40px;
+  justify-content: space-evenly;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 14px;
+}
+
+#section-algumas-gallery .gallery-image-algumasrosas {
+  width: 450px;
+  height: 450px;
+  outline: 10px solid #687450;
+  border: 2px solid #ffffff;
+  box-sizing: initial;
+  justify-items: center;
+}
+
+#section-algumas-gallery .gallery-image-algumasrosas img {
+  width: 97%;
+  height: 98%;
+  object-fit: cover;
+  border: 5px solid #F1E0C3;
+}
+
+/**** BANNER 2 ****/
+
+.gradiente-container {
+  position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0px;
+   top: -1px;
+   background: linear-gradient(113.25deg, #242222 43.95%, rgba(52, 52, 52, 0) 89.67%), rgba(255, 255, 255, 0.5);
+   mix-blend-mode: multiply;
+}
+ 
+.border-container {
+  box-sizing: border-box;
+  position: absolute;
+  width: 97%;
+  height: 93%;
+  padding: 21px;
+  align-items: center;
+  border: 3px solid #F1E0C3;
+  margin: 20px;
+}
+
+.galery2 {
+  position: relative;
+  height:100%;
+  width:100%;
+  border: 1px solid grey;
+  margin: auto;
+}
+
+.imgb2 {
+  top: 100%;  
+  align-items: center;
+  width: 100%;
+  margin-top: -(610/2)px; 
+}
+
+.description {
+  height: 150px;
+  width: auto;
+  margin-top: 320px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-family: Reenie Beanie;
+  font-weight: 200;
+  font-size: 70px;
+}
+
+/*** SECTIONS INSTRAGRAM ***/
+
+.siga {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+ 
+#instafeed {
+  flex-wrap: nowrap;
+  padding-top: 50px;
+}
+
+/* Section 04 - Mapa e Contato Form */
+
+#section-contato {
+  background-color: #687450;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
+  /*text-align: center;*/
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#section-form h2 {
+  width: 600px;
+  align-items: center;
+}
+
+#section-form .form-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-form .form-content h2 {
+  flex-basis: 30%;
+  text-align: left;
+  margin: 0;
+  color: #DCA75F;
+}
+
+#section-contato .form-container {
+  flex-basis: 50%;
+}
+
+#section-contato .form-container::after {
+  content: "";
+  background-color: #9ca883;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 24px;
+  left: 24px;
+  z-index: -1;
+}
+
+#section-contato .form-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  background-color: #798363;
+  color: #ffffff;
+}
+
+#section-contato .form-container form button:hover {
+  background-color: rgba(89, 110, 85, 0.5);;
+  color: #e6e3e3;
+}
+
+.mapa {
+text-align: center;
+padding-bottom: 20px;
+}
+
+.contato {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*** SECTIONS FOOTER ***/
+
+footer {
+ justify-items: center;
+ align-items: center; 
+ text-align: center;
+}
+
+.footer-roda {
+  background-color: #DCA75F;
+  font-weight: 100;
+}
+
+.imglogo-rodape {
+  margin-top: 10px;
+  padding: 0px 15px;
+  width: 5%;
+}
+
+.footer-copyright {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 50;
+  line-height: 1.3;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.footer-copyright h2 {
+  margin-top: -10px;
+}
+
+.imgrede {
+  width: 2%;
+  padding: 10px 25px;
+}
+
+/***   RESPONSIVO  320 a 768***/
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #687450;
+  border-radius: 1px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DCA75F;
+  border-radius: 1px;
+}
+
+  header{
+    height: 60px;
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .section-banner1 {
+    width: 100%;
+  }
+    .menu {
+   /* min-width: 320px;*/
+    height: 60px;
+  }
+
+  .imglogo {
+    width: 20%;
+    padding-left: 10px;
+  }
+
+  .ul-menu {
+    /*margin-top: 10px;*/
+    margin-left: 5%;
+    padding: 0;
+  }
+
+  .menu ul li {
+    line-height: 25px;
+    width: 100%;
+    height: 30px;
+    padding: 5px 5px;
+  
+  }
+
+  .menu ul li a {
+      font-size: 1.7em;
+  }
+
+  .imgBanner1 {
+    width: 100%;
+   /* height: 100%;*/
+  }
+
+  .img-container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .button-rede {
+   display: flex;
+   margin: -19px 0 0 -83px;
+   width: 40%;
+  }
+
+  .button-rede button {
+  /*  position: absolute;*/
+    margin: -300px 0 0 -768px;
+  }
+
+  .button-rede .botao a {
+    font-size: 0.9em;
+    font-family: Roboto, sans-serif;
+  }
+
+  .button-rede #whatsapp {
+    width: 264px;
+    height: 65px;
+    padding-left: 25px;
+  }
+
+
+  .button-rede #instagram {
+  width: 264px;
+  height: 65px;
+  padding-left: 25px;
+  margin: -300px 0 0 -1188px;
+  }
+
+  .button-rede .iconewhatsapp {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: -30px;
+  margin: 393px 0 0 -400px;
+  }
+
+  .button-rede .iconeinstagram {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: -30px;
+  margin: 393px 0 0 383px;
+  }
+
+  .con-mais {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  }
+
+  .con-mais h2 {
+  font-size: 1.2em;
+  padding-right: 10px;
+  }
+
+  .rosa {
+  width: 5%;
+  padding-right: 10px;
+  }
+
+
+  .sobre_nos {
+  display: block;
+  }
+
+  #section-sobrenos .section-texts {
+  padding: 0;
+  }
+
+  #section-sobrenos .section-texts h1 {
+  margin-top: 40px;
+  max-width: 768px;
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 20px;
+  }
+
+  #section-sobrenos .section-texts {
+  width: 100%;
+  padding: 0;
+  }
+
+  #section-sobrenos .section-texts p {
+  margin: 40px;
+  align-items: center;
+  line-height: 1.0;
+  text-align: justify;
+  font-size: 2.1em;
+  }
+
+  .imgsobrenos {
+  margin: 0px;
+  padding: 0px;
+  margin: 20px;
+  width: 450px;
+  }
+
+/*** GALLERY ***/
+
+  #section-algumas-gallery {
+  display: flex;
+  }
+
+  #section-algumas-gallery .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  #section-algumas-gallery .gallery-image-algumasrosas {
+  width: 450px;
+  height: 450px;
+  outline: 10px solid #687450;
+  border: 2px solid #ffffff;
+  box-sizing: initial;
+  justify-items: center;
+  }
+
+
+  /*** GALLERY2 ***/
+
+  .gradiente-container {
+   left: 0px;
+   top: -0px;
+   height: 100%;
+  }
+
+  .border-container {
+  width: 95%;
+  height: 85%;
+  }
+
+  .description {
+  margin-top: 150px;
+  padding: 0 40px;
+  font-family: Reenie Beanie, sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  }
+
+  /*** SECTIONS INSTAGRAM ***/
+
+  .siga {
+  padding: 30px;
+  background: #687450;
+  font-weight: 100;
+  }
+
+  /*** CONTATO-LOCALIZAÇÃO ***/
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row-mapa {
+    justify-content: center;
+    /*width: 100%;*/
+  }
+
+  .row-mapa iframe {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mapa {
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+
+  #section-contato {
+  /*display: block;*/
+  }
+
+  #section-form h2 {
+    /*width: 600px;*/
+    align-items: center;
+  }
+
+  #section-form .form-content .form-container  form {
+    /*display: flex;
+    justify-content: center;*/
+    width: 100%;
+  }
+
+  input,
+  textarea {
+  width: auto;
+  }
+
+}
+
+
+  /***   RESPONSIVO  769 a 1024***/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px #687450;
+    border-radius: 1px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DCA75F;
+    border-radius: 1px;
+  }
+  
+    header{
+    /*  min-width: 769px;
+      max-width: 1024px;*/
+      height: 60px;
+      width: 100%;
+    }
+  
+    body {
+    /*  min-width: 769px;
+      max-width: 1024px;*/
+      width: 100%;
+    }
+  
+    .section-banner1 {
+      width: 100%;
+      height: 100%;
+    }
+      .menu {
+      height: 60px;
+    }
+  
+    .imglogo {
+      width: 20%;
+      padding-left: 10px;
+    }
+  
+    .ul-menu {
+      margin-left: 5%;
+      padding: 0;
+    }
+  
+    .menu ul li {
+      line-height: 25px;
+      width: 100%;
+      height: 30px;
+      padding: 5px 5px;
+    
+    }
+  
+    .menu ul li a {
+        font-size: 1.7em;
+    }
+  
+    .imgBanner1 {
+      width: 100%;
+    /*  height: 100%;*/
+    }
+  
+    .img-container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .button-rede {
+     display: flex;
+     margin: 332px 0 0 -396px;
+    }
+  
+    .button-rede button {
+    /*  position: absolute;*/
+      margin: -300px 0 0 -768px;
+    }
+  
+    .button-rede .botao a {
+      font-size: 0.9em;
+      font-family: Roboto, sans-serif;
+    }
+  
+    .button-rede #whatsapp {
+      width: 264px;
+      height: 65px;
+      padding-left: 25px;
+    }
+  
+  
+    .button-rede #instagram {
+    width: 264px;
+    height: 65px;
+    padding-left: 25px;
+    margin: -300px 0 0 -1188px;
+    }
+  
+    .button-rede .iconewhatsapp {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    margin: 393px 0 0 -400px;
+    }
+  
+    .button-rede .iconeinstagram {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    margin: 393px 0 0 383px;
+    }
+  
+    .con-mais {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    }
+  
+    .con-mais h2 {
+    font-size: 1.2em;
+    padding-right: 10px;
+    }
+  
+    .rosa {
+    width: 5%;
+    padding-right: 10px;
+    }
+  
+  
+    .sobre_nos {
+    display: block;
+    }
+  
+    #section-sobrenos .section-texts {
+    padding: 0;
+    }
+  
+    #section-sobrenos .section-texts h1 {
+    margin-top: 40px;
+    max-width: 1024px;
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+  
+    #section-sobrenos .section-texts {
+    width: 100%;
+    padding: 0;
+    }
+  
+    #section-sobrenos .section-texts p {
+    margin: 40px;
+    align-items: center;
+    line-height: 1.0;
+    text-align: justify;
+    font-size: 2.1em;
+    }
+  
+    .imgsobrenos {
+    margin: 0px;
+    padding: 0px;
+    margin: 20px;
+    width: 450px;
+    }
+  
+  /*** GALLERY ***/
+  
+    #section-algumas-gallery {
+    display: flex;
+    }
+  
+    #section-algumas-gallery .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+  
+    #section-algumas-gallery .gallery-image-algumasrosas {
+    width: 2450px;
+    height: 450px;
+    outline: 10px solid #687450;
+    border: 2px solid #ffffff;
+    box-sizing: initial;
+    justify-items: center;
+    }
+  
+  
+    /*** GALLERY2 ***/
+  
+    .gradiente-container {
+     left: 0px;
+     top: -0px;
+     height: 100%;
+    }
+  
+    .border-container {
+    width: 95%;
+    height: 85%;
+    }
+  
+    .description {
+    margin-top: 150px;
+    padding: 0 40px;
+    font-family: Reenie Beanie, sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    }
+  
+    /*** SECTIONS INSTAGRAM ***/
+  
+    .siga {
+    padding: 30px;
+    background: #687450;
+    font-weight: 100;
+    }
+  
+    /*** CONTATO-LOCALIZAÇÃO ***/
+  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .row-mapa {
+      justify-content: center;
+    }
+  
+    .mapa {
+      justify-items: center;
+      text-align: center;
+      padding-bottom: 20px;
+      }
+  
+    #section-contato {
+    /*display: block;*/
+    }
+  
+    #section-form h2 {
+      /*width: 600px;*/
+      align-items: center;
+    }
+  
+    #section-form .form-content {
+      /*display: flex;
+      justify-content: center;*/
+    }
+}
+    
+/***   RESPONSIVO  1025 a 1440***/
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px #687450;
+    border-radius: 1px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DCA75F;
+    border-radius: 1px;
+  }
+  
+    header{
+    /*  min-width: 1025px;
+      max-width: 1440px;*/
+      height: 60px;
+      width: 100%;
+    }
+  
+    body {
+    /*  min-width: 1025px;
+      max-width: 1440px;*/
+      width: 100%;
+    }
+  
+    .section-banner1 {
+      width: 100%;
+      height: 100%;
+    }
+      .menu {
+      height: 60px;
+    }
+  
+    .imglogo {
+      width: 20%;
+      padding-left: 10px;
+    }
+  
+    .ul-menu {
+      margin-left: 5%;
+      padding: 0;
+      width: 1000px;
+    }
+  
+    .menu ul li {
+      line-height: 25px;
+      width: 180px;
+      height: 30px;
+      padding: 5px 5px;    
+    }
+  
+    .menu ul li a {
+        font-size: 1.7em;
+    }
+  
+    .imgBanner1 {
+      width: 100%;
+    /*  height: 100%;*/
+    }
+  
+    .img-container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .button-rede {
+     display: flex;
+     margin: 125px 0 0 -222px;
+    }
+  
+    .button-rede button {
+      margin: -300px 0 0 -768px;
+    }
+  
+    .button-rede .botao a {
+      font-size: 0.9em;
+      font-family: Roboto, sans-serif;
+    }
+  
+    .button-rede #whatsapp {
+      width: 264px;
+      height: 65px;
+      padding-left: 25px;
+    }
+  
+  
+    .button-rede #instagram {
+    width: 264px;
+    height: 65px;
+    padding-left: 25px;
+    margin: -300px 0 0 -1188px;
+    }
+  
+    .button-rede .iconewhatsapp {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    margin: 393px 0 0 -400px;
+    }
+  
+    .button-rede .iconeinstagram {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    margin: 393px 0 0 383px;
+    }
+  
+    .con-mais {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    }
+  
+    .con-mais h2 {
+    font-size: 1.2em;
+    padding-right: 10px;
+    }
+  
+    .rosa {
+    width: 5%;
+    padding-right: 10px;
+    }
+    
+    .sobre_nos {
+    display: block;
+    }
+  
+    #section-sobrenos .section-texts {
+    padding: 0;
+    }
+  
+    #section-sobrenos .section-texts h1 {
+    margin-top: 40px;
+    max-width: 1440px;
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+  
+    #section-sobrenos .section-texts {
+    width: 100%;
+    padding: 0;
+    }
+  
+    #section-sobrenos .section-texts p {
+    margin: 40px;
+    align-items: center;
+    line-height: 1.0;
+    text-align: justify;
+    font-size: 2.1em;
+    }
+  
+    .imgsobrenos {
+    margin: 0px;
+    padding: 0px;
+    margin: 20px;
+    width: 450px;
+    }
+  
+  /*** GALLERY ***/
+  
+    #section-algumas-gallery {
+    display: flex;
+    }
+  
+    #section-algumas-gallery .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+  
+    #section-algumas-gallery .gallery-image-algumasrosas {
+    width: 290px;
+    height: 290px;
+    outline: 10px solid #687450;
+    border: 2px solid #ffffff;
+    box-sizing: initial;
+    justify-items: center;
+    }
+  
+  
+    /*** GALLERY2 ***/
+  
+    .gradiente-container {
+     left: 0px;
+     top: -0px;
+     height: 100%;
+    }
+  
+    .border-container {
+    width: 95%;
+    height: 85%;
+    }
+  
+    .description {
+    margin-top: 150px;
+    padding: 0 40px;
+    font-family: Reenie Beanie, sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    }
+  
+    /*** SECTIONS INSTAGRAM ***/
+  
+    .siga {
+    padding: 30px;
+    background: #687450;
+    font-weight: 100;
+    }
+  
+    /*** CONTATO-LOCALIZAÇÃO ***/
+  
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .row-mapa {
+      justify-content: center;
+    }
+  
+    .mapa {
+      justify-items: center;
+      text-align: center;
+      padding-bottom: 20px;
+      }
+  
+    #section-form h2 {
+      align-items: center;
+    }
+  
+ 
+}
